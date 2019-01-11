@@ -15,8 +15,6 @@ func main (){
 		log.Fatal(argErMsg)
 	}
 
-	fmt.Println("Start")
-
 	// Get parameters from arguments
 	ip := os.Args[1]
 	port := os.Args[2]
